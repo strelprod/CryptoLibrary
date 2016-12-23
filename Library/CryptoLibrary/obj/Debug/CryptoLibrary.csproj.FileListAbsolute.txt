@@ -12,3 +12,4 @@ C:\Users\Vladimir\Desktop\БАРКОВ\Новая папка\CryptoLibrary\Crypt
 C:\Users\Vladimir\Desktop\БАРКОВ\Новая папка\CryptoLibrary\CryptoLibrary\bin\Debug\CryptoLibrary.pdb
 C:\Users\Vladimir\Desktop\БАРКОВ\Новая папка\CryptoLibrary\CryptoLibrary\obj\Debug\CryptoLibrary.dll
 C:\Users\Vladimir\Desktop\БАРКОВ\Новая папка\CryptoLibrary\CryptoLibrary\obj\Debug\CryptoLibrary.pdb
+C:\Users\Vladimir\Desktop\БАРКОВ\Новая папка\CryptoLibrary\CryptoLibrary\obj\Debug\CryptoLibrary.csprojResolveAssemblyReference.cache

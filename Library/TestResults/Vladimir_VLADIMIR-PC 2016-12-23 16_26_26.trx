@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="cedafdf2-bdbf-4251-92d2-e3107047e69d" name="Vladimir@VLADIMIR-PC 2016-12-23 16:26:26" runUser="Vladimir-PC\Vladimir" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Локальные" id="2d257222-2a9f-40e2-bef8-b16aafb5583c">
+    <Description>Это - параметры по умолчанию для локального тестового запуска.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Vladimir_VLADIMIR-PC 2016-12-23 16_26_26">
+      <DeploymentItem filename="C:\Users\Vladimir\Desktop\БАРКОВ\Новая папка\CryptoLibrary\CryptoLibrary\bin\Debug\CryptoLibrary.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2016-12-23T16:26:26.5772036+03:00" queuing="2016-12-23T16:26:28.4013080+03:00" start="2016-12-23T16:26:28.4443104+03:00" finish="2016-12-23T16:26:28.8713348+03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="8" executed="8" passed="8" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="EncryptDecryptShortStringElGamal" storage="c:\users\vladimir\desktop\барков\новая папка\cryptolibrary\cryptolibrary.tests\bin\debug\cryptolibrary.md5test.dll" id="302c72cd-3cc0-89f7-058d-c9f35f2c78cb">
+      <Execution id="25bc27b8-e9d8-4921-9393-416cbc597f6c" />
+      <TestMethod codeBase="C:/Users/Vladimir/Desktop/БАРКОВ/Новая папка/CryptoLibrary/CryptoLibrary.Tests/bin/Debug/CryptoLibrary.MD5Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CryptoLibrary.MD5Test.ElGamalTest, CryptoLibrary.MD5Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EncryptDecryptShortStringElGamal" />
+    </UnitTest>
+    <UnitTest name="HashMD5Long" storage="c:\users\vladimir\desktop\барков\новая папка\cryptolibrary\cryptolibrary.tests\bin\debug\cryptolibrary.md5test.dll" id="6d77f90f-6d5b-09a5-384b-78976cc8deec">
+      <Execution id="b7bda87c-4d2a-4f95-b24b-2dd589557eb7" />
+      <TestMethod codeBase="C:/Users/Vladimir/Desktop/БАРКОВ/Новая папка/CryptoLibrary/CryptoLibrary.Tests/bin/Debug/CryptoLibrary.MD5Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CryptoLibrary.Tests.MD5Test, CryptoLibrary.MD5Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="HashMD5Long" />
+    </UnitTest>
+    <UnitTest name="EncryptDecryptDifferentLength" storage="c:\users\vladimir\desktop\барков\новая папка\cryptolibrary\cryptolibrary.tests\bin\debug\cryptolibrary.md5test.dll" id="f3f80de4-0bd1-8fa8-1b74-56d6f8ec74e0">
+      <Execution id="b05de2fd-b43e-4b90-ac24-2532f50b0f60" />
+      <TestMethod codeBase="C:/Users/Vladimir/Desktop/БАРКОВ/Новая папка/CryptoLibrary/CryptoLibrary.Tests/bin/Debug/CryptoLibrary.MD5Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CryptoLibrary.MD5Test.GhostTest, CryptoLibrary.MD5Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EncryptDecryptDifferentLength" />
+    </UnitTest>
+    <UnitTest name="EncryptDecryptEqualsElGamal" storage="c:\users\vladimir\desktop\барков\новая папка\cryptolibrary\cryptolibrary.tests\bin\debug\cryptolibrary.md5test.dll" id="08dc326f-08f9-b97f-4a06-d92747abf8ba">
+      <Execution id="629e6291-176d-4be3-9a04-095abe017b7a" />
+      <TestMethod codeBase="C:/Users/Vladimir/Desktop/БАРКОВ/Новая папка/CryptoLibrary/CryptoLibrary.Tests/bin/Debug/CryptoLibrary.MD5Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CryptoLibrary.MD5Test.ElGamalTest, CryptoLibrary.MD5Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EncryptDecryptEqualsElGamal" />
+    </UnitTest>
+    <UnitTest name="EncryptDecriptEquals" storage="c:\users\vladimir\desktop\барков\новая папка\cryptolibrary\cryptolibrary.tests\bin\debug\cryptolibrary.md5test.dll" id="d063c4ea-1c4e-ab06-4fee-34d4fc56fbd4">
+      <Execution id="d360d66f-85a6-4cba-96bf-7bcfe1f740ba" />
+      <TestMethod codeBase="C:/Users/Vladimir/Desktop/БАРКОВ/Новая папка/CryptoLibrary/CryptoLibrary.Tests/bin/Debug/CryptoLibrary.MD5Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CryptoLibrary.MD5Test.GhostTest, CryptoLibrary.MD5Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EncryptDecriptEquals" />
+    </UnitTest>
+    <UnitTest name="HashMD5Small" storage="c:\users\vladimir\desktop\барков\новая папка\cryptolibrary\cryptolibrary.tests\bin\debug\cryptolibrary.md5test.dll" id="bf0a21af-dc4a-fe88-e0fc-7b0bb7b13040">
+      <Execution id="7a692e3a-4442-46aa-b256-8b988cdaf26c" />
+      <TestMethod codeBase="C:/Users/Vladimir/Desktop/БАРКОВ/Новая папка/CryptoLibrary/CryptoLibrary.Tests/bin/Debug/CryptoLibrary.MD5Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CryptoLibrary.Tests.MD5Test, CryptoLibrary.MD5Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="HashMD5Small" />
+    </UnitTest>
+    <UnitTest name="SignAndVerify" storage="c:\users\vladimir\desktop\барков\новая папка\cryptolibrary\cryptolibrary.tests\bin\debug\cryptolibrary.md5test.dll" id="abdf9a48-236e-e707-76f2-28f2e1ce518a">
+      <Execution id="9a54f452-3fab-4a8f-9afd-f23c468f5ed1" />
+      <TestMethod codeBase="C:/Users/Vladimir/Desktop/БАРКОВ/Новая папка/CryptoLibrary/CryptoLibrary.Tests/bin/Debug/CryptoLibrary.MD5Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RSATest.RSATest, CryptoLibrary.MD5Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SignAndVerify" />
+    </UnitTest>
+    <UnitTest name="EncryptDecryptLongStringElGamal" storage="c:\users\vladimir\desktop\барков\новая папка\cryptolibrary\cryptolibrary.tests\bin\debug\cryptolibrary.md5test.dll" id="2f538d63-45cb-cccd-62e4-d2b6b3a05e9a">
+      <Execution id="2b2da2d7-6ea2-4c33-8cc4-a09ddaf4e916" />
+      <TestMethod codeBase="C:/Users/Vladimir/Desktop/БАРКОВ/Новая папка/CryptoLibrary/CryptoLibrary.Tests/bin/Debug/CryptoLibrary.MD5Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CryptoLibrary.MD5Test.ElGamalTest, CryptoLibrary.MD5Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EncryptDecryptLongStringElGamal" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Отсутствующие в списке результаты" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="08dc326f-08f9-b97f-4a06-d92747abf8ba" executionId="629e6291-176d-4be3-9a04-095abe017b7a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2f538d63-45cb-cccd-62e4-d2b6b3a05e9a" executionId="2b2da2d7-6ea2-4c33-8cc4-a09ddaf4e916" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="302c72cd-3cc0-89f7-058d-c9f35f2c78cb" executionId="25bc27b8-e9d8-4921-9393-416cbc597f6c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6d77f90f-6d5b-09a5-384b-78976cc8deec" executionId="b7bda87c-4d2a-4f95-b24b-2dd589557eb7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="abdf9a48-236e-e707-76f2-28f2e1ce518a" executionId="9a54f452-3fab-4a8f-9afd-f23c468f5ed1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bf0a21af-dc4a-fe88-e0fc-7b0bb7b13040" executionId="7a692e3a-4442-46aa-b256-8b988cdaf26c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d063c4ea-1c4e-ab06-4fee-34d4fc56fbd4" executionId="d360d66f-85a6-4cba-96bf-7bcfe1f740ba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f3f80de4-0bd1-8fa8-1b74-56d6f8ec74e0" executionId="b05de2fd-b43e-4b90-ac24-2532f50b0f60" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="629e6291-176d-4be3-9a04-095abe017b7a" testId="08dc326f-08f9-b97f-4a06-d92747abf8ba" testName="EncryptDecryptEqualsElGamal" computerName="VLADIMIR-PC" duration="00:00:00.0147361" startTime="2016-12-23T16:26:28.4593113+03:00" endTime="2016-12-23T16:26:28.8143316+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="629e6291-176d-4be3-9a04-095abe017b7a">
+    </UnitTestResult>
+    <UnitTestResult executionId="2b2da2d7-6ea2-4c33-8cc4-a09ddaf4e916" testId="2f538d63-45cb-cccd-62e4-d2b6b3a05e9a" testName="EncryptDecryptLongStringElGamal" computerName="VLADIMIR-PC" duration="00:00:00.0014871" startTime="2016-12-23T16:26:28.8153316+03:00" endTime="2016-12-23T16:26:28.8193319+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2b2da2d7-6ea2-4c33-8cc4-a09ddaf4e916">
+    </UnitTestResult>
+    <UnitTestResult executionId="25bc27b8-e9d8-4921-9393-416cbc597f6c" testId="302c72cd-3cc0-89f7-058d-c9f35f2c78cb" testName="EncryptDecryptShortStringElGamal" computerName="VLADIMIR-PC" duration="00:00:00.0008259" startTime="2016-12-23T16:26:28.8213320+03:00" endTime="2016-12-23T16:26:28.8243322+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="25bc27b8-e9d8-4921-9393-416cbc597f6c">
+    </UnitTestResult>
+    <UnitTestResult executionId="b7bda87c-4d2a-4f95-b24b-2dd589557eb7" testId="6d77f90f-6d5b-09a5-384b-78976cc8deec" testName="HashMD5Long" computerName="VLADIMIR-PC" duration="00:00:00.0024614" startTime="2016-12-23T16:26:28.8263323+03:00" endTime="2016-12-23T16:26:28.8303325+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b7bda87c-4d2a-4f95-b24b-2dd589557eb7">
+    </UnitTestResult>
+    <UnitTestResult executionId="9a54f452-3fab-4a8f-9afd-f23c468f5ed1" testId="abdf9a48-236e-e707-76f2-28f2e1ce518a" testName="SignAndVerify" computerName="VLADIMIR-PC" duration="00:00:00.0053736" startTime="2016-12-23T16:26:28.8323326+03:00" endTime="2016-12-23T16:26:28.8393330+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9a54f452-3fab-4a8f-9afd-f23c468f5ed1">
+    </UnitTestResult>
+    <UnitTestResult executionId="7a692e3a-4442-46aa-b256-8b988cdaf26c" testId="bf0a21af-dc4a-fe88-e0fc-7b0bb7b13040" testName="HashMD5Small" computerName="VLADIMIR-PC" duration="00:00:00.0003049" startTime="2016-12-23T16:26:28.8413331+03:00" endTime="2016-12-23T16:26:28.8433332+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7a692e3a-4442-46aa-b256-8b988cdaf26c">
+    </UnitTestResult>
+    <UnitTestResult executionId="d360d66f-85a6-4cba-96bf-7bcfe1f740ba" testId="d063c4ea-1c4e-ab06-4fee-34d4fc56fbd4" testName="EncryptDecriptEquals" computerName="VLADIMIR-PC" duration="00:00:00.0022013" startTime="2016-12-23T16:26:28.8453334+03:00" endTime="2016-12-23T16:26:28.8493336+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d360d66f-85a6-4cba-96bf-7bcfe1f740ba">
+    </UnitTestResult>
+    <UnitTestResult executionId="b05de2fd-b43e-4b90-ac24-2532f50b0f60" testId="f3f80de4-0bd1-8fa8-1b74-56d6f8ec74e0" testName="EncryptDecryptDifferentLength" computerName="VLADIMIR-PC" duration="00:00:00.0005835" startTime="2016-12-23T16:26:28.8503336+03:00" endTime="2016-12-23T16:26:28.8533338+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b05de2fd-b43e-4b90-ac24-2532f50b0f60">
+    </UnitTestResult>
+  </Results>
+</TestRun>

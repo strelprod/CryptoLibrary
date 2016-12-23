@@ -1,0 +1,10 @@
+C:\Users\Vladimir\Desktop\БАРКОВ\Новая папка\CryptoLibrary\CryptoLibrary.Program\bin\Debug\CryptoLibrary.Program.exe
+C:\Users\Vladimir\Desktop\БАРКОВ\Новая папка\CryptoLibrary\CryptoLibrary.Program\bin\Debug\CryptoLibrary.Program.pdb
+C:\Users\Vladimir\Desktop\БАРКОВ\Новая папка\CryptoLibrary\CryptoLibrary.Program\bin\Debug\CryptoLibrary.dll
+C:\Users\Vladimir\Desktop\БАРКОВ\Новая папка\CryptoLibrary\CryptoLibrary.Program\bin\Debug\CryptoLibrary.pdb
+C:\Users\Vladimir\Desktop\БАРКОВ\Новая папка\CryptoLibrary\CryptoLibrary.Program\obj\x86\Debug\CryptoLibrary.Program.csprojResolveAssemblyReference.cache
+C:\Users\Vladimir\Desktop\БАРКОВ\Новая папка\CryptoLibrary\CryptoLibrary.Program\obj\x86\Debug\CryptoProgram.Form1.resources
+C:\Users\Vladimir\Desktop\БАРКОВ\Новая папка\CryptoLibrary\CryptoLibrary.Program\obj\x86\Debug\CryptoLibrary.Program.Properties.Resources.resources
+C:\Users\Vladimir\Desktop\БАРКОВ\Новая папка\CryptoLibrary\CryptoLibrary.Program\obj\x86\Debug\CryptoLibrary.Program.csproj.GenerateResource.Cache
+C:\Users\Vladimir\Desktop\БАРКОВ\Новая папка\CryptoLibrary\CryptoLibrary.Program\obj\x86\Debug\CryptoLibrary.Program.exe
+C:\Users\Vladimir\Desktop\БАРКОВ\Новая папка\CryptoLibrary\CryptoLibrary.Program\obj\x86\Debug\CryptoLibrary.Program.pdb
