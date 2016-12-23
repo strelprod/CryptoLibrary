@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9d346609-d78b-44d0-83de-d0b878d57909" name="Vladimir@VLADIMIR-PC 2016-12-23 00:10:43" runUser="Vladimir-PC\Vladimir" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Локальные" id="2d257222-2a9f-40e2-bef8-b16aafb5583c">
+    <Description>Это - параметры по умолчанию для локального тестового запуска.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Vladimir_VLADIMIR-PC 2016-12-23 00_10_43">
+      <DeploymentItem filename="C:\Users\Vladimir\Desktop\БАРКОВ\CryptoLibrary\CryptoLibrary\bin\Debug\CryptoLibrary.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2016-12-23T00:10:43.5347879+03:00" queuing="2016-12-23T00:10:44.6818535+03:00" start="2016-12-23T00:10:44.7098551+03:00" finish="2016-12-23T00:10:45.1768818+03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="5" executed="5" passed="1" error="0" failed="4" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="EncryptDecryptLongStringElGamal" storage="c:\users\vladimir\desktop\барков\cryptolibrary\cryptolibrary.md5test\bin\debug\cryptolibrary.md5test.dll" id="2f538d63-45cb-cccd-62e4-d2b6b3a05e9a">
+      <Execution id="dc5f27ec-554a-47a1-92f0-e4f98e2c7d1e" />
+      <TestMethod codeBase="C:/Users/Vladimir/Desktop/БАРКОВ/CryptoLibrary/CryptoLibrary.MD5Test/bin/Debug/CryptoLibrary.MD5Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CryptoLibrary.MD5Test.ElGamalTest, CryptoLibrary.MD5Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EncryptDecryptLongStringElGamal" />
+    </UnitTest>
+    <UnitTest name="EncryptDecryptMD5" storage="c:\users\vladimir\desktop\барков\cryptolibrary\cryptolibrary.md5test\bin\debug\cryptolibrary.md5test.dll" id="4af888af-a773-4a38-b045-1b4ef84d010f">
+      <Execution id="f8c9dbc1-62fc-4125-a297-a601021568a2" />
+      <TestMethod codeBase="C:/Users/Vladimir/Desktop/БАРКОВ/CryptoLibrary/CryptoLibrary.MD5Test/bin/Debug/CryptoLibrary.MD5Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CryptoLibrary.Tests.MD5Test, CryptoLibrary.MD5Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EncryptDecryptMD5" />
+    </UnitTest>
+    <UnitTest name="TestEncodeBlock" storage="c:\users\vladimir\desktop\барков\cryptolibrary\cryptolibrary.md5test\bin\debug\cryptolibrary.md5test.dll" id="f13c42da-296c-c130-605a-444bac01c014">
+      <Execution id="2e0d19ef-5813-4f81-b4df-ec36017a9d7d" />
+      <TestMethod codeBase="C:/Users/Vladimir/Desktop/БАРКОВ/CryptoLibrary/CryptoLibrary.MD5Test/bin/Debug/CryptoLibrary.MD5Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CryptoLibrary.Tests.AESTest, CryptoLibrary.MD5Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestEncodeBlock" />
+    </UnitTest>
+    <UnitTest name="EncryptDecryptShortStringElGamal" storage="c:\users\vladimir\desktop\барков\cryptolibrary\cryptolibrary.md5test\bin\debug\cryptolibrary.md5test.dll" id="302c72cd-3cc0-89f7-058d-c9f35f2c78cb">
+      <Execution id="3dd25bc9-3f4d-4243-9e80-1ae7b0c5fb30" />
+      <TestMethod codeBase="C:/Users/Vladimir/Desktop/БАРКОВ/CryptoLibrary/CryptoLibrary.MD5Test/bin/Debug/CryptoLibrary.MD5Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CryptoLibrary.MD5Test.ElGamalTest, CryptoLibrary.MD5Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EncryptDecryptShortStringElGamal" />
+    </UnitTest>
+    <UnitTest name="EncryptDecryptEqualsElGamal" storage="c:\users\vladimir\desktop\барков\cryptolibrary\cryptolibrary.md5test\bin\debug\cryptolibrary.md5test.dll" id="08dc326f-08f9-b97f-4a06-d92747abf8ba">
+      <Execution id="78947614-a665-4fd4-805d-f7c34b3e5cb8" />
+      <TestMethod codeBase="C:/Users/Vladimir/Desktop/БАРКОВ/CryptoLibrary/CryptoLibrary.MD5Test/bin/Debug/CryptoLibrary.MD5Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CryptoLibrary.MD5Test.ElGamalTest, CryptoLibrary.MD5Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EncryptDecryptEqualsElGamal" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Отсутствующие в списке результаты" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="08dc326f-08f9-b97f-4a06-d92747abf8ba" executionId="78947614-a665-4fd4-805d-f7c34b3e5cb8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2f538d63-45cb-cccd-62e4-d2b6b3a05e9a" executionId="dc5f27ec-554a-47a1-92f0-e4f98e2c7d1e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="302c72cd-3cc0-89f7-058d-c9f35f2c78cb" executionId="3dd25bc9-3f4d-4243-9e80-1ae7b0c5fb30" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4af888af-a773-4a38-b045-1b4ef84d010f" executionId="f8c9dbc1-62fc-4125-a297-a601021568a2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f13c42da-296c-c130-605a-444bac01c014" executionId="2e0d19ef-5813-4f81-b4df-ec36017a9d7d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="78947614-a665-4fd4-805d-f7c34b3e5cb8" testId="08dc326f-08f9-b97f-4a06-d92747abf8ba" testName="EncryptDecryptEqualsElGamal" computerName="VLADIMIR-PC" duration="00:00:00.0364436" startTime="2016-12-23T00:10:44.7208557+03:00" endTime="2016-12-23T00:10:45.1068778+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="78947614-a665-4fd4-805d-f7c34b3e5cb8">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;vladimir&gt;. Actual:&lt;-#p‘ $ У&gt;. </Message>
+          <StackTrace>   at CryptoLibrary.MD5Test.ElGamalTest.EncryptDecryptEqualsElGamal() in C:\Users\Vladimir\Desktop\БАРКОВ\CryptoLibrary\CryptoLibrary.MD5Test\ElGamalTest.cs:line 28
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="dc5f27ec-554a-47a1-92f0-e4f98e2c7d1e" testId="2f538d63-45cb-cccd-62e4-d2b6b3a05e9a" testName="EncryptDecryptLongStringElGamal" computerName="VLADIMIR-PC" duration="00:00:00.0030383" startTime="2016-12-23T00:10:45.1098779+03:00" endTime="2016-12-23T00:10:45.1158783+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dc5f27ec-554a-47a1-92f0-e4f98e2c7d1e">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;vladimir strelnikov&gt;. Actual:&lt;p#pЬ8$ ) ‡А)&#x1C;&#x2;% Ѓ7-&gt;. </Message>
+          <StackTrace>   at CryptoLibrary.MD5Test.ElGamalTest.EncryptDecryptLongStringElGamal() in C:\Users\Vladimir\Desktop\БАРКОВ\CryptoLibrary\CryptoLibrary.MD5Test\ElGamalTest.cs:line 45
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3dd25bc9-3f4d-4243-9e80-1ae7b0c5fb30" testId="302c72cd-3cc0-89f7-058d-c9f35f2c78cb" testName="EncryptDecryptShortStringElGamal" computerName="VLADIMIR-PC" duration="00:00:00.0022674" startTime="2016-12-23T00:10:45.1188785+03:00" endTime="2016-12-23T00:10:45.1238787+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3dd25bc9-3f4d-4243-9e80-1ae7b0c5fb30">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;strel&gt;. Actual:&lt;p+pњ&#x1;&gt;. </Message>
+          <StackTrace>   at CryptoLibrary.MD5Test.ElGamalTest.EncryptDecryptShortStringElGamal() in C:\Users\Vladimir\Desktop\БАРКОВ\CryptoLibrary\CryptoLibrary.MD5Test\ElGamalTest.cs:line 62
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f8c9dbc1-62fc-4125-a297-a601021568a2" testId="4af888af-a773-4a38-b045-1b4ef84d010f" testName="EncryptDecryptMD5" computerName="VLADIMIR-PC" duration="00:00:00.0028731" startTime="2016-12-23T00:10:45.1248788+03:00" endTime="2016-12-23T00:10:45.1298791+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f8c9dbc1-62fc-4125-a297-a601021568a2">
+    </UnitTestResult>
+    <UnitTestResult executionId="2e0d19ef-5813-4f81-b4df-ec36017a9d7d" testId="f13c42da-296c-c130-605a-444bac01c014" testName="TestEncodeBlock" computerName="VLADIMIR-PC" duration="00:00:00.0050597" startTime="2016-12-23T00:10:45.1318792+03:00" endTime="2016-12-23T00:10:45.1388796+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2e0d19ef-5813-4f81-b4df-ec36017a9d7d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;System.IO.MemoryStream (System.IO.MemoryStream)&gt;. Actual:&lt;0x3925841d02dc09fbdc118597196a0b32 (System.String)&gt;. </Message>
+          <StackTrace>   at CryptoLibrary.Tests.AESTest.TestEncodeBlock() in C:\Users\Vladimir\Desktop\БАРКОВ\CryptoLibrary\CryptoLibrary.MD5Test\AESTest.cs:line 50
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
